@@ -1,0 +1,117 @@
+*,
+*:before,
+*:after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background: linear-gradient(to bottom, #450ccc, #2d083c);
+}
+
+.container {
+  width: 40%;
+  position: absolute;
+  min-width: 500px;
+  padding: 30px 40px;
+  left: 0px;
+  right: 0px;
+  top: 30px;
+  margin: auto;
+}
+
+.newtask {
+  display: flex;
+  position: relative;
+  background-color: #ffffff;
+  padding: 30px 20px;
+  border-radius: 5px;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.4);
+  margin-left: 50px;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.newtask input {
+  width: 50%;
+  height: 40px;
+  font-family: "Poppins", sans-serif;
+  border: 2px solid #bfd1da;
+  border-radius: 5px;
+  color: #111111;
+  font-weight: 400;
+  position: relative;
+  font-size: 15px;
+}
+.newtask input:focus {
+  outline: none;
+  border-color: #8052ec;
+}
+.newtask button {
+  width: 20%;
+  height: 40px;
+  background-color: #8052ec;
+  /* border: 2px solid #222324; */
+  border-radius: 5px;
+  /* box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3); */
+  border: none;
+  font-size: 15px;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+  outline: none;
+}
+
+.newtask button:hover {
+  color: #ffffff;
+  background-color: #111111;
+  transition: 1s;
+}
+
+.tasks {
+  background-color: #ffffff;
+  width: 100%;
+  padding: 30px 20px;
+  position: relative;
+  margin-top: 80px;
+  margin-left: 28px;
+  border-radius: 12px;
+  box-shadow: 0 15px 30px (0, 0, 0, 0.4);
+  color: #111111;
+}
+
+.task {
+  background-color: #ffffff;
+  height: 50px;
+  padding: 5px 10px;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid #d1d3d4;
+  cursor: pointer;
+}
+
+.task span {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+
+.task button {
+  background-color: #8052ec;
+  height: 40px;
+  width: 40px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: #ffffff;
+  border-radius: 10px;
+}
+
+.task button:hover{
+     color: #ffffff;
+  background-color: #111111;
+  transition: 1s;
+}
